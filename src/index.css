@@ -13,6 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
 /* SEZIONE HEADER */
 
 header {
@@ -48,6 +55,14 @@ a:hover {
 
 /* SEZIONE MAIN */
 
+.contenitore_black {
+  width: 100%;
+  height: 150px;
+  color: white;
+  background-color: #1c1c1c;
+  margin-top: 30px;
+
+}
 
 
 
