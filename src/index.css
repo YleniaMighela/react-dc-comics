@@ -64,7 +64,18 @@ a:hover {
 
 }
 
+.contenitore_blue {
+  width: 100%;
+  height: 150px;
+  color: white;
+  background-color: #0282f9;
 
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
