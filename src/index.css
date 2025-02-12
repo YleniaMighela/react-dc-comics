@@ -80,14 +80,28 @@ section {
 
 
 
+/* SEZIONE FOOTER */
 
 
+.footer_info {
+  display: flex;
+  justify-content: start;
+  background-image: url("./img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  /* DEBUG */
+  height: 450px;
+
+}
 
 
+.link_footer {
+  list-style-type: none;
+  color: white;
+  line-height: 30px;
 
-
-
-
+}
 
 
 
