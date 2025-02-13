@@ -1,21 +1,7 @@
 // esporto la funzione Header
-export default function Header() {
+export default function Header(props) {
 
-    const linksEntries = [
-        { testo: 'CHARACTERS', url: '#', current: false },
-        { testo: 'COMICS', url: '#', current: true },
-        { testo: 'MOVIES', url: '#', current: false },
-        { testo: 'TV', url: '#', current: false },
-        { testo: 'GAMES', url: '#', current: false },
-        { testo: 'COLLECTIBLES', url: '#', current: false },
-        { testo: 'VIDEOS', url: '#', current: false },
-        { testo: 'FANS', url: '#', current: false },
-        { testo: 'NEWS', url: '#', current: false },
-        { testo: 'SHOP', url: '#', current: false },
-    ];
-
-
-
+    const linksEntries = props.link;
 
 
     return (
@@ -28,7 +14,7 @@ export default function Header() {
             <nav>
                 <ul>
                     {linksEntries.map((link) => (
-                        <li>
+                        <li key={link.id}>
                             <a href={link.url} className={link.current ? 'active' : ''}>
                                 {link.testo}
                             </a>
