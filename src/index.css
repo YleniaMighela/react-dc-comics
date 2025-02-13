@@ -116,25 +116,45 @@ a:hover {
 }
 
 /* SEZIONE FOOTER */
+footer {
+  background-image: url("./img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+
+.logo_footer {
+  background-image: url("./img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 50%;
+}
 
 .footer_info {
   display: flex;
   justify-content: start;
-  background-image: url("./img/footer-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-left: 15%;
+
   max-width: 100%;
   /* DEBUG */
   height: 450px;
 
 }
 
-
-.link_footer {
-  list-style-type: none;
+h4 {
   color: white;
-  line-height: 30px;
+  padding: 20px;
+}
+
+/* .link_footer {
+  display: flex;
+  justify-content: start;
+} */
+
+.link_footer li {
+  list-style-type: none;
+  color: #959595;
+  line-height: 25px;
 
 }
 
@@ -143,7 +163,10 @@ a:hover {
 
 
 
-
+.footer_follow {
+  height: 130px;
+  background-color: black;
+}
 
 
 
