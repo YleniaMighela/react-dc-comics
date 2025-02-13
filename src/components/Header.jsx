@@ -1,7 +1,11 @@
+// importo il componente Navbar
+import Navbar from "./Navbar";
+
 // esporto la funzione Header
 export default function Header(props) {
 
-    const linksEntries = props.link;
+
+    const { link } = props;
 
 
     return (
@@ -11,19 +15,8 @@ export default function Header(props) {
                 <img id="img_logo" src="./img/dc-logo.png" alt="" />
             </div>
 
-            <nav>
-                <ul>
-                    {linksEntries.map((link) => (
-                        <li key={link.id}>
-                            <a href={link.url} className={link.current ? 'active' : ''}>
-                                {link.testo}
-                            </a>
-                        </li>
-                    ))
-                    }
-                </ul>
-            </nav>
 
+            <Navbar link={link} />
         </header>
     );
 }
