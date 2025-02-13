@@ -17,6 +17,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Open Sans";
 }
 
 
@@ -43,7 +44,7 @@ nav ul {
   list-style: none;
   margin-top: 40px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 600;
 
 }
 
@@ -52,7 +53,7 @@ nav ul {
 a {
 
   margin-right: 20px;
-  color: #1c1c1c;
+  color: #303030;
   text-decoration: inherit;
 }
 
@@ -144,10 +145,12 @@ footer {
 h4 {
   color: white;
   padding: 20px;
+  font-size: 20px;
 }
 
 
 .link_footer li {
+  font-size: 13px;
   list-style-type: none;
   color: #959595;
   line-height: 25px;
@@ -191,24 +194,3 @@ button {
 button:hover {
   border-color: #646cff;
 }
-
-/* button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
-
-/* 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-} */
