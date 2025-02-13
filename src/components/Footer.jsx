@@ -64,11 +64,21 @@ export default function Footer() {
             </div>
 
 
-            <section>
-                <div className="footer_follow">
+
+            <div className="footer_follow">
+                <button>SIGN-UP NOW!</button>
+
+                <div className="icone">
+                    <h3>FOLLOW US</h3>
+                    <img src="../img/footer-facebook.png" alt="" />
+                    <img src="../img/footer-twitter.png" alt="" />
+                    <img src="../img/footer-youtube.png" alt="" />
+                    <img src="../img/footer-pinterest.png" alt="" />
+                    <img src="../img/footer-facebook.png" alt="" />
 
                 </div>
-            </section>
+            </div>
+
         </footer>
     );
 }
