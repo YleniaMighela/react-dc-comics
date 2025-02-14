@@ -78,7 +78,27 @@ a:hover {
 
 
 
+.card {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
 
+}
+
+.prod-card {
+  width: 15%;
+  font-size: 10px;
+  color: white;
+}
+
+.prod-card img {
+  width: 130px;
+  height: 150px;
+
+}
 
 
 
@@ -197,7 +217,7 @@ h4 {
   gap: 20px;
 }
 
-h3 {
+#titleFollow {
   color: #0083f1;
 }
 

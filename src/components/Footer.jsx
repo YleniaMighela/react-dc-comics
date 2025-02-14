@@ -69,7 +69,7 @@ export default function Footer() {
                 <button>SIGN-UP NOW!</button>
 
                 <div className="icone">
-                    <h3>FOLLOW US</h3>
+                    <h3 id="titleFollow">FOLLOW US</h3>
                     <img src="../img/footer-facebook.png" alt="" />
                     <img src="../img/footer-twitter.png" alt="" />
                     <img src="../img/footer-youtube.png" alt="" />
