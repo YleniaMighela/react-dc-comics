@@ -161,7 +161,7 @@ export default function ProductsList() {
     return (
 
         <div className="card">
-            {comics.map(comic => <ProductsCard key={comic.id} productThumb={comic.thumb} productTitle={comic.title} />)}
+            {comics.map(comic => <ProductsCard key={comic.id} productThumb={comic.thumb} productSeries={comic.series} />)}
         </div>
 
     );
