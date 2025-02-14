@@ -65,16 +65,38 @@ a:hover {
 
 /* SEZIONE MAIN */
 
+/* SEZIONE CONTENITORE NERO CON CARD */
 .contenitore_black {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 150px;
   color: white;
   background-color: #1c1c1c;
   margin-top: 30px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SEZIONE CONTENITORE BLU CON SHOP */
 
 .contenitore_blue {
   /* width: 100%; */
